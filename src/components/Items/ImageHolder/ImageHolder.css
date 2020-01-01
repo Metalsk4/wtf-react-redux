@@ -1,0 +1,42 @@
+.imageWrapper {
+  height: 150px;
+  width: 150px;
+  border: 1px solid #999999;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 3px;
+}
+
+.imageWrapper img {
+  height: 50%;
+  width: 50%;
+  border-radius: 50%;
+  align-self: center;
+}
+
+.ratingSpan {
+  color: #9d9c9c;
+  font-size: x-small;
+}
+
+.checked {
+  color: orange;
+  align-self: center;
+  margin-top: -1em;
+}
+.rating {
+  align-self: center;
+  color: #999999;
+  font-size: x-small;
+}
+
+.priceWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.priceWrapper p {
+  font-size: 0.9em;
+  font-weight: 600;
+}
